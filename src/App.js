@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Button onClick={onToggleButton}>toggle</Button>
+      <button onClick={onToggleButton}>toggle</button>
     </div>
   );
 }
